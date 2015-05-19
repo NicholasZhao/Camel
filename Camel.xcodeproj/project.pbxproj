@@ -1,0 +1,485 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1F97658C1B0B8A310086EAEF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F97658B1B0B8A310086EAEF /* main.m */; };
+		1F97658F1B0B8A310086EAEF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F97658E1B0B8A310086EAEF /* AppDelegate.m */; };
+		1F9765951B0B8A310086EAEF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F9765931B0B8A310086EAEF /* Main.storyboard */; };
+		1F9765971B0B8A310086EAEF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F9765961B0B8A310086EAEF /* Images.xcassets */; };
+		1F97659A1B0B8A310086EAEF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1F9765981B0B8A310086EAEF /* LaunchScreen.xib */; };
+		1F9765A61B0B8A310086EAEF /* CamelTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F9765A51B0B8A310086EAEF /* CamelTests.m */; };
+		1F9765B11B0B8B550086EAEF /* SideMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F9765B01B0B8B550086EAEF /* SideMenuViewController.m */; };
+		1F9765B41B0B8C690086EAEF /* MenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F9765B31B0B8C690086EAEF /* MenuViewController.m */; };
+		1F9765B71B0B8CD50086EAEF /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F9765B61B0B8CD50086EAEF /* MainViewController.m */; };
+		1F9765BA1B0B8E2A0086EAEF /* MessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F9765B91B0B8E2A0086EAEF /* MessageViewController.m */; };
+		1F9765BD1B0B8EBD0086EAEF /* DeskViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F9765BC1B0B8EBD0086EAEF /* DeskViewController.m */; };
+		1F9765C01B0B8F4B0086EAEF /* ContactViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F9765BF1B0B8F4B0086EAEF /* ContactViewController.m */; };
+		1F9765C31B0B90370086EAEF /* menu_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F9765C21B0B90370086EAEF /* menu_icon.png */; };
+		1F9765C51B0B906C0086EAEF /* menu_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F9765C41B0B906C0086EAEF /* menu_icon@2x.png */; };
+		1F9765C71B0B908F0086EAEF /* galaxy.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F9765C61B0B908F0086EAEF /* galaxy.png */; };
+		1F9765C91B0B90BF0086EAEF /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F9765C81B0B90BF0086EAEF /* 1.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1F9765A01B0B8A310086EAEF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1F97657E1B0B8A310086EAEF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1F9765851B0B8A310086EAEF;
+			remoteInfo = Camel;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1F9765861B0B8A310086EAEF /* Camel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Camel.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F97658A1B0B8A310086EAEF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F97658B1B0B8A310086EAEF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1F97658D1B0B8A310086EAEF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1F97658E1B0B8A310086EAEF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1F9765941B0B8A310086EAEF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1F9765961B0B8A310086EAEF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		1F9765991B0B8A310086EAEF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		1F97659F1B0B8A310086EAEF /* CamelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CamelTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F9765A41B0B8A310086EAEF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F9765A51B0B8A310086EAEF /* CamelTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CamelTests.m; sourceTree = "<group>"; };
+		1F9765AF1B0B8B550086EAEF /* SideMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SideMenuViewController.h; sourceTree = "<group>"; };
+		1F9765B01B0B8B550086EAEF /* SideMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SideMenuViewController.m; sourceTree = "<group>"; };
+		1F9765B21B0B8C690086EAEF /* MenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuViewController.h; sourceTree = "<group>"; };
+		1F9765B31B0B8C690086EAEF /* MenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuViewController.m; sourceTree = "<group>"; };
+		1F9765B51B0B8CD50086EAEF /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		1F9765B61B0B8CD50086EAEF /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		1F9765B81B0B8E2A0086EAEF /* MessageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MessageViewController.h; path = ../MessageViewController.h; sourceTree = "<group>"; };
+		1F9765B91B0B8E2A0086EAEF /* MessageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MessageViewController.m; path = ../MessageViewController.m; sourceTree = "<group>"; };
+		1F9765BB1B0B8EBD0086EAEF /* DeskViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeskViewController.h; sourceTree = "<group>"; };
+		1F9765BC1B0B8EBD0086EAEF /* DeskViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeskViewController.m; sourceTree = "<group>"; };
+		1F9765BE1B0B8F4B0086EAEF /* ContactViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactViewController.h; sourceTree = "<group>"; };
+		1F9765BF1B0B8F4B0086EAEF /* ContactViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactViewController.m; sourceTree = "<group>"; };
+		1F9765C21B0B90370086EAEF /* menu_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = menu_icon.png; sourceTree = "<group>"; };
+		1F9765C41B0B906C0086EAEF /* menu_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "menu_icon@2x.png"; sourceTree = "<group>"; };
+		1F9765C61B0B908F0086EAEF /* galaxy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = galaxy.png; sourceTree = "<group>"; };
+		1F9765C81B0B90BF0086EAEF /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1F9765831B0B8A310086EAEF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F97659C1B0B8A310086EAEF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1F97657D1B0B8A310086EAEF = {
+			isa = PBXGroup;
+			children = (
+				1F9765881B0B8A310086EAEF /* Camel */,
+				1F9765A21B0B8A310086EAEF /* CamelTests */,
+				1F9765871B0B8A310086EAEF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1F9765871B0B8A310086EAEF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1F9765861B0B8A310086EAEF /* Camel.app */,
+				1F97659F1B0B8A310086EAEF /* CamelTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1F9765881B0B8A310086EAEF /* Camel */ = {
+			isa = PBXGroup;
+			children = (
+				1F97658D1B0B8A310086EAEF /* AppDelegate.h */,
+				1F97658E1B0B8A310086EAEF /* AppDelegate.m */,
+				1F9765AF1B0B8B550086EAEF /* SideMenuViewController.h */,
+				1F9765B01B0B8B550086EAEF /* SideMenuViewController.m */,
+				1F9765B21B0B8C690086EAEF /* MenuViewController.h */,
+				1F9765B31B0B8C690086EAEF /* MenuViewController.m */,
+				1F9765B51B0B8CD50086EAEF /* MainViewController.h */,
+				1F9765B61B0B8CD50086EAEF /* MainViewController.m */,
+				1F9765B81B0B8E2A0086EAEF /* MessageViewController.h */,
+				1F9765B91B0B8E2A0086EAEF /* MessageViewController.m */,
+				1F9765BB1B0B8EBD0086EAEF /* DeskViewController.h */,
+				1F9765BC1B0B8EBD0086EAEF /* DeskViewController.m */,
+				1F9765BE1B0B8F4B0086EAEF /* ContactViewController.h */,
+				1F9765BF1B0B8F4B0086EAEF /* ContactViewController.m */,
+				1F9765931B0B8A310086EAEF /* Main.storyboard */,
+				1F9765961B0B8A310086EAEF /* Images.xcassets */,
+				1F9765981B0B8A310086EAEF /* LaunchScreen.xib */,
+				1F9765C11B0B8F7F0086EAEF /* Resources */,
+				1F9765891B0B8A310086EAEF /* Supporting Files */,
+			);
+			path = Camel;
+			sourceTree = "<group>";
+		};
+		1F9765891B0B8A310086EAEF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1F97658A1B0B8A310086EAEF /* Info.plist */,
+				1F97658B1B0B8A310086EAEF /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1F9765A21B0B8A310086EAEF /* CamelTests */ = {
+			isa = PBXGroup;
+			children = (
+				1F9765A51B0B8A310086EAEF /* CamelTests.m */,
+				1F9765A31B0B8A310086EAEF /* Supporting Files */,
+			);
+			path = CamelTests;
+			sourceTree = "<group>";
+		};
+		1F9765A31B0B8A310086EAEF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1F9765A41B0B8A310086EAEF /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1F9765C11B0B8F7F0086EAEF /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1F9765C41B0B906C0086EAEF /* menu_icon@2x.png */,
+				1F9765C21B0B90370086EAEF /* menu_icon.png */,
+				1F9765C61B0B908F0086EAEF /* galaxy.png */,
+				1F9765C81B0B90BF0086EAEF /* 1.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1F9765851B0B8A310086EAEF /* Camel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F9765A91B0B8A310086EAEF /* Build configuration list for PBXNativeTarget "Camel" */;
+			buildPhases = (
+				1F9765821B0B8A310086EAEF /* Sources */,
+				1F9765831B0B8A310086EAEF /* Frameworks */,
+				1F9765841B0B8A310086EAEF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Camel;
+			productName = Camel;
+			productReference = 1F9765861B0B8A310086EAEF /* Camel.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1F97659E1B0B8A310086EAEF /* CamelTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F9765AC1B0B8A310086EAEF /* Build configuration list for PBXNativeTarget "CamelTests" */;
+			buildPhases = (
+				1F97659B1B0B8A310086EAEF /* Sources */,
+				1F97659C1B0B8A310086EAEF /* Frameworks */,
+				1F97659D1B0B8A310086EAEF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1F9765A11B0B8A310086EAEF /* PBXTargetDependency */,
+			);
+			name = CamelTests;
+			productName = CamelTests;
+			productReference = 1F97659F1B0B8A310086EAEF /* CamelTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1F97657E1B0B8A310086EAEF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Nicholas Zhao";
+				TargetAttributes = {
+					1F9765851B0B8A310086EAEF = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					1F97659E1B0B8A310086EAEF = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = 1F9765851B0B8A310086EAEF;
+					};
+				};
+			};
+			buildConfigurationList = 1F9765811B0B8A310086EAEF /* Build configuration list for PBXProject "Camel" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1F97657D1B0B8A310086EAEF;
+			productRefGroup = 1F9765871B0B8A310086EAEF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1F9765851B0B8A310086EAEF /* Camel */,
+				1F97659E1B0B8A310086EAEF /* CamelTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1F9765841B0B8A310086EAEF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F9765951B0B8A310086EAEF /* Main.storyboard in Resources */,
+				1F9765C71B0B908F0086EAEF /* galaxy.png in Resources */,
+				1F9765C31B0B90370086EAEF /* menu_icon.png in Resources */,
+				1F97659A1B0B8A310086EAEF /* LaunchScreen.xib in Resources */,
+				1F9765C51B0B906C0086EAEF /* menu_icon@2x.png in Resources */,
+				1F9765971B0B8A310086EAEF /* Images.xcassets in Resources */,
+				1F9765C91B0B90BF0086EAEF /* 1.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F97659D1B0B8A310086EAEF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1F9765821B0B8A310086EAEF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F9765B11B0B8B550086EAEF /* SideMenuViewController.m in Sources */,
+				1F9765B71B0B8CD50086EAEF /* MainViewController.m in Sources */,
+				1F97658F1B0B8A310086EAEF /* AppDelegate.m in Sources */,
+				1F9765C01B0B8F4B0086EAEF /* ContactViewController.m in Sources */,
+				1F97658C1B0B8A310086EAEF /* main.m in Sources */,
+				1F9765BD1B0B8EBD0086EAEF /* DeskViewController.m in Sources */,
+				1F9765B41B0B8C690086EAEF /* MenuViewController.m in Sources */,
+				1F9765BA1B0B8E2A0086EAEF /* MessageViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F97659B1B0B8A310086EAEF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F9765A61B0B8A310086EAEF /* CamelTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1F9765A11B0B8A310086EAEF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1F9765851B0B8A310086EAEF /* Camel */;
+			targetProxy = 1F9765A01B0B8A310086EAEF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1F9765931B0B8A310086EAEF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1F9765941B0B8A310086EAEF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1F9765981B0B8A310086EAEF /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1F9765991B0B8A310086EAEF /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1F9765A71B0B8A310086EAEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1F9765A81B0B8A310086EAEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1F9765AA1B0B8A310086EAEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Camel/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1F9765AB1B0B8A310086EAEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Camel/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1F9765AD1B0B8A310086EAEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CamelTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Camel.app/Camel";
+			};
+			name = Debug;
+		};
+		1F9765AE1B0B8A310086EAEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CamelTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Camel.app/Camel";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1F9765811B0B8A310086EAEF /* Build configuration list for PBXProject "Camel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F9765A71B0B8A310086EAEF /* Debug */,
+				1F9765A81B0B8A310086EAEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1F9765A91B0B8A310086EAEF /* Build configuration list for PBXNativeTarget "Camel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F9765AA1B0B8A310086EAEF /* Debug */,
+				1F9765AB1B0B8A310086EAEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1F9765AC1B0B8A310086EAEF /* Build configuration list for PBXNativeTarget "CamelTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F9765AD1B0B8A310086EAEF /* Debug */,
+				1F9765AE1B0B8A310086EAEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1F97657E1B0B8A310086EAEF /* Project object */;
+}
